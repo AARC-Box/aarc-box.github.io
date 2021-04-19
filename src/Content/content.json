@@ -1,0 +1,8 @@
+{
+    "Images":["https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_Diagram.svg/512px-Atom_Diagram.svg.png","https://i.vimeocdn.com/video/589972810_530x315.jpg","https://i.vimeocdn.com/video/590587169_530x315.jpg"],
+    "PitchVideo":"https://www.youtube.com/watch?v=4bmb168yCMA",
+    "Titles":["Monsoon III","Beams","Move 2"],
+    "Color": ["black","white","white"],
+    "PlaceHolderText":"Lorem ipsum dolor sit amet, consectetur adipscing elit. Donec tinicidunt ipsum augue. In faucibus vehicula magna pulvinar aliquam. Cras aliquam feugiat lorem non auctor. Quisque sed lorem egestas mauris venenatis commodo eu id nibh. Ut porta libero sed semper faucibus.",
+    "Locations":["Right","Left","Right"]
+}
