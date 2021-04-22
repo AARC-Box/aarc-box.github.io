@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.f48790af.chunk.js",
-    "main.js.map": "/static/js/main.f48790af.chunk.js.map",
+    "main.js": "/static/js/main.75478c51.chunk.js",
+    "main.js.map": "/static/js/main.75478c51.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e9fc3b11.js",
     "runtime-main.js.map": "/static/js/runtime-main.e9fc3b11.js.map",
     "static/js/2.1fe31085.chunk.js": "/static/js/2.1fe31085.chunk.js",
@@ -12,13 +12,12 @@
     "index.html": "/index.html",
     "static/css/main.9d5b29c0.chunk.css.map": "/static/css/main.9d5b29c0.chunk.css.map",
     "static/js/2.1fe31085.chunk.js.LICENSE.txt": "/static/js/2.1fe31085.chunk.js.LICENSE.txt",
-    "static/media/AARC_Logo.3d01540f.png": "/static/media/AARC_Logo.3d01540f.png",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/media/AARC_Logo.3d01540f.png": "/static/media/AARC_Logo.3d01540f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e9fc3b11.js",
     "static/js/2.1fe31085.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.f48790af.chunk.js"
+    "static/js/main.75478c51.chunk.js"
   ]
 }
