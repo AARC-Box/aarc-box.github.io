@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { fadeInUp } from 'react-animations';
+import logo from '../Content/AARC_Logo.png';
 
 
 const fadeInAnimation = keyframes`${fadeInUp}`;
@@ -132,22 +133,22 @@ const LogoWrapper = styled.div`
 
 const Logo = styled.div`
     display:flex;
-    width:60vw;
+    width:80vw;
     height:60vh;
     z-index:1;
     background-image: url('${props => props.imgSrc}');
     background-repeat: no-repeat;
     background-position:center;
-    background-size: 40vw 60vh;
+    background-size: 70vw 70vh;
 `
 
 
 
-const LandingPage = ({LandingPageContent}) => {
+const LandingPage = () => {
     return (
         <LandingPageWrapper>
             <LogoWrapper>
-                <Logo imgSrc={LandingPageContent.Images[0]}/>
+                <Logo imgSrc={logo}/>
                 <Chevron/>
             </LogoWrapper>
         </LandingPageWrapper>
