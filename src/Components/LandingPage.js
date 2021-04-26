@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { fadeInUp } from 'react-animations';
+import { useState } from "react";
 import logo from '../Content/AARC_Logo.png';
 
 
@@ -47,34 +48,34 @@ const LogoWrapper = styled.div`
     display:flex;
     flex-direction:column;
     width: 100vw;
-    height; 65vh;
+    height: 90vh;
     align-content:center;
     align-items:center;
     justify-content:space-around;
         
-    animation: slide-up-fade-in ease 2s;
+    animation:${props => props.isLoaded? 'slide-up-fade-in ease 2s':''};
     animation-iteration-count: 1;
     transform-origin: 50% 50%;
     animation-fill-mode:forwards; /*when the spec is finished*/
-    -webkit-animation: slide-up-fade-in ease 2s;
+    -webkit-animation: ${props => props.isLoaded ? 'slide-up-fade-in ease 2s':''};
     -webkit-animation-iteration-count: 1;
     -webkit-transform-origin: 50% 50%;
     -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
-    -moz-animation: slide-up-fade-in ease 2s;
+    -moz-animation: ${props => props.isLoaded? 'slide-up-fade-in ease 2s':''};;
     -moz-animation-iteration-count: 1;
     -moz-transform-origin: 50% 50%;
     -moz-animation-fill-mode:forwards; /*FF 5+*/
-    -o-animation: slide-up-fade-in ease 2s;
+    -o-animation: ${props => props.isLoaded? 'slide-up-fade-in ease 2s':''};;
     -o-animation-iteration-count: 1;
     -o-transform-origin: 50% 50%;
     -o-animation-fill-mode:forwards; /*Not implemented yet*/
-    -ms-animation: slide-up-fade-in ease 2s;
+    -ms-animation: ${props => props.isLoaded? 'slide-up-fade-in ease 2s':''};;
     -ms-animation-iteration-count: 1;
     -ms-transform-origin: 50% 50%;
     -ms-animation-fill-mode:forwards; /*IE 10+*/
 
     opacity:0;
-    opacity: 1\9;
+
     @keyframes slide-up-fade-in{
         0% {
             opacity:0;
@@ -131,29 +132,25 @@ const LogoWrapper = styled.div`
     } 
 `
 
-const Logo = styled.div`
-    display:flex;
-    width:80vw;
-    height:60vh;
-    z-index:1;
-    background-image: url('${props => props.imgSrc}');
-    background-repeat: no-repeat;
-    background-position:center;
-    background-size: 70vw 70vh;
+const BufferDiv = styled.div`
+    width:100vw;
+    height:5vh;
 `
 
-
-
 const LandingPage = () => {
+    const [imgLoaded, setLoaded] = useState(false);
+
     return (
         <LandingPageWrapper>
-            <LogoWrapper>
-                <Logo imgSrc={logo}/>
+            <LogoWrapper isLoaded={imgLoaded}>
+                <BufferDiv/>
+                <img onLoad={() => setLoaded(true)} src={logo}/>
                 <Chevron/>
-            </LogoWrapper>
+            </LogoWrapper>)
         </LandingPageWrapper>
     )
 }
 
 
 export default LandingPage;
+

@@ -1,8 +1,17 @@
 {
     "Images":["https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Atom_Diagram.svg/512px-Atom_Diagram.svg.png","https://i.vimeocdn.com/video/589972810_530x315.jpg","https://i.vimeocdn.com/video/590587169_530x315.jpg"],
-    "PitchVideo":"https://www.youtube.com/watch?v=4bmb168yCMA",
+    "PitchVideo":"https://www.youtube.com/watch?v=P8teDD6l3IE",
     "Titles":["Monsoon III","Beams","Move 2"],
     "Color": ["black","white","white"],
     "PlaceHolderText":"Lorem ipsum dolor sit amet, consectetur adipscing elit. Donec tinicidunt ipsum augue. In faucibus vehicula magna pulvinar aliquam. Cras aliquam feugiat lorem non auctor. Quisque sed lorem egestas mauris venenatis commodo eu id nibh. Ut porta libero sed semper faucibus.",
-    "Locations":["Right","Left","Right"]
+    "Locations":["Right","Left","Right"],
+    "ProfileBlurbs":[
+        "My name is Johanna Torres and I am a senior majoring in mechanical engineering. I am passionate about product design and robotics.",
+        "I'm Matt and I am also senior majoring in mechanical engineering and computer science. When I'm not banging on the keyboard you can usually find me tinkering with electronics of all kinds."
+    ],
+    "ProductInfo":[
+        "",
+        "",
+        ""
+    ]
 }
