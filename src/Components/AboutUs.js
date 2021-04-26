@@ -42,9 +42,9 @@ const Introduction = styled.div`
             </Introduction>
             <ProfileWrapper>
             <Profile entranceDir="Down" name={names[0]} blurb={ProfileBlurbs[0]} pic={ProfileImgs[0]}/>
+            <Profile entranceDir="Up" name={names[3]} blurb={ProfileBlurbs[3]} pic={ProfileImgs[3]}/>
+            <Profile entranceDir="Down" name={names[2]} blurb={ProfileBlurbs[2]} pic={ProfileImgs[2]}/>
             <Profile entranceDir="Up" name={names[1]} blurb={ProfileBlurbs[1]} pic={ProfileImgs[1]}/>
-            <Profile entranceDir="Down" name='Stanley Yelnats' blurb='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum' pic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMrmfXsmvbR1rYFRFwX_2AEc7127qgeB86_eoLd7b9Mn0qfaUx'/>
-            <Profile entranceDir="Up" name='Stanley Yelnats' blurb='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum' pic='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMrmfXsmvbR1rYFRFwX_2AEc7127qgeB86_eoLd7b9Mn0qfaUx'/>
             </ProfileWrapper>
         </MasterWrapper>
       </div>
