@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/static/js/main.c67708ef.chunk.js",
-    "main.js.map": "/static/js/main.c67708ef.chunk.js.map",
+    "main.js": "/static/js/main.28309d5d.chunk.js",
+    "main.js.map": "/static/js/main.28309d5d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e9fc3b11.js",
     "runtime-main.js.map": "/static/js/runtime-main.e9fc3b11.js.map",
     "static/js/2.8a767e2e.chunk.js": "/static/js/2.8a767e2e.chunk.js",
@@ -15,14 +15,16 @@
     "static/media/AARC_Logo.3d01540f.png": "/static/media/AARC_Logo.3d01540f.png",
     "static/media/Johanna_Torres_pic.99b78739.jpg": "/static/media/Johanna_Torres_pic.99b78739.jpg",
     "static/media/Matt.46232343.png": "/static/media/Matt.46232343.png",
+    "static/media/Olivier.7135cdf3.jpeg": "/static/media/Olivier.7135cdf3.jpeg",
     "static/media/UI.7bb8492d.jpeg": "/static/media/UI.7bb8492d.jpeg",
     "static/media/isometric.51beb2e4.jpeg": "/static/media/isometric.51beb2e4.jpeg",
+    "static/media/ryan.d140a30e.jpeg": "/static/media/ryan.d140a30e.jpeg",
     "static/media/with_food.d85fbdda.jpeg": "/static/media/with_food.d85fbdda.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.e9fc3b11.js",
     "static/js/2.8a767e2e.chunk.js",
     "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.c67708ef.chunk.js"
+    "static/js/main.28309d5d.chunk.js"
   ]
 }
