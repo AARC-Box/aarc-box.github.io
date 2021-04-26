@@ -10,8 +10,8 @@
         "I'm Matt and I am also senior majoring in mechanical engineering and computer science. When I'm not banging on the keyboard you can usually find me tinkering with electronics of all kinds."
     ],
     "ProductInfo":[
-        "",
-        "",
-        ""
+        "Our Project the AARC Box came from our teams initiative to combat the problem of food waste in america. We decided to focus on food waste at a domestic level. The AARC Box is designed to be a self-humidifying container that will extend the shelf-life of the foods you uy",
+        "The AARC Box prototype was created from accrylic. Inside the lid are the electrical components in charge of regulating the control loop as well the power sources. The left side of the lid is where the water used in the humidification process is stored. On the underside of the lid there is the humidifying mechanism and the humidity sensor used to inform the feedback loop. In the center of the lid is the LCD where a user can select the preset for the food he or she wishes to store",
+        "The AARC Box is also designed to store a wide variety of food - it comes with 20 presets as well as an option to designate a custom humidity level"
     ]
 }

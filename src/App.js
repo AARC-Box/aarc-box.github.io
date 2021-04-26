@@ -22,24 +22,24 @@ function App() {
         ImgSrc={Isometric}
         Title={"General info"}
         Color={Content.Color[0]}
-        Text={Content.PlaceHolderText}
+        Text={Content.ProductInfo[0]}
       />
       <ContentContainer 
         Location={Content.Locations[1]}
         ImgSrc={UI}
-        Title={"UI"}
+        Title={"UI and Prototype description"}
         Color={Content.Color[0]}
-        Text={Content.PlaceHolderText}
+        Text={Content.ProductInfo[1]}
       />
       <ContentContainer 
         Location={Content.Locations[2]}
         ImgSrc={Food}
         Title={"Use overview"}
         Color={Content.Color[0]}
-        Text={Content.PlaceHolderText}
+        Text={Content.ProductInfo[2]}
       />
-      <div style={{width:'100vw', height:'2vh', textAlign:'center'}}>
-        If you want to see a more technical analysis click  <a href="https://www.w3schools.com">Here</a> 
+      <div style={{width:'100vw', height:'2vh', textAlign:'center', color:'white'}}>
+        If you want to see a more technical analysis and to see a copy of our report click  <a style={{color:'white'}}href="https://github.com/AARC-Box/aarc-box.github.io/tree/master/Technical_specs">Here</a> 
       </div>
       <AboutUs ProfileImgs={[Joanna,Matt]} ProfileBlurbs ={Content.ProfileBlurbs} names={['Johanna Torres', 'Matthew Vanegas']}/>
     </div>
